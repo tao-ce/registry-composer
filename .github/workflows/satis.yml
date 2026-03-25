@@ -9,8 +9,12 @@ env:
 jobs:
   satis:
     runs-on: ubuntu-latest
-    container: ghcr.io/composer/satis:latest
     steps:
+
+    - uses: shivammathur/setup-php@v2
+      env:
+        COMPOSER_ALLOW_PLUGINS: composer/satis
+
     - uses: actions/checkout@v6
       with:
         submodules: recursive
@@ -26,7 +30,9 @@ jobs:
 
     - run: |
         export SATIS_HOMEPAGE=https://tao-ce.github.io/registry-composer/${{ env.SATIS_PREFIX }}
-        /satis/bin/satis --ansi -vvv -n build satis.json public/${{ env.SATIS_PREFIX }}
+
+        composer create-project composer/satis:dev-main
+        php satis/bin/satis --ansi -vvv -n build satis.json public/${{ env.SATIS_PREFIX }}
       
 
     - working-directory: public
