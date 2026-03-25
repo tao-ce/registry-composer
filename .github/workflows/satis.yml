@@ -9,7 +9,9 @@ env:
 jobs:
   satis:
     runs-on: ubuntu-latest
-
+    container: ghcr.io/composer/satis:latest
+    env:
+      STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer/${{ env.STATIS_PREFIX }}
     steps:
     - uses: actions/checkout@v6
       with:
@@ -24,12 +26,8 @@ jobs:
         fetch-depth: 1
         set-safe-directory: '*'
 
-    - uses: docker://ghcr.io/composer/satis:latest
-      env:
-        HOME: /github/home
-        STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer/${{ env.STATIS_PREFIX }}
-      with:
-        args: --ansi -vvv -n build satis.json public/${{ env.STATIS_PREFIX }}
+    - run:
+        /satis/bin/satis --ansi -vvv -n build satis.json public/${{ env.STATIS_PREFIX }}
       
 
     - working-directory: public
