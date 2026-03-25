@@ -15,15 +15,14 @@ jobs:
       with:
         submodules: recursive
         fetch-depth: 1
+        set-safe-directory: '*'
 
     - uses: actions/checkout@v6
       with:
         path: public
         ref: github-pages
         fetch-depth: 1
-
-    - run: |
-        git config --system --add safe.directory '*'
+        set-safe-directory: '*'
 
     - uses: docker://ghcr.io/composer/satis:latest
       env:
