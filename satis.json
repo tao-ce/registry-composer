@@ -1,0 +1,39 @@
+{
+    "homepage": "http://localhost:21582",
+    "name": "tao-ce/composer-registry",
+    "output-dir": "public",
+    "archive": {
+        "rearchive": false,
+        "directory": "dist",
+        "format": "zip",
+        "whitelist": ["oat-sa/bundle-em-client", "oat-sa/lib-em-php-*"],
+        "skip-dev": false
+    },
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/tao-ce/lib-tenant-management" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/lib-correlation-ids-http-client" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-cache-document-manager" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-correlation-ids" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-document-manager" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-elasticsearch-document-manager" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-filesystem-document-manager" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-grader-messenger-bridge" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-qti" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/bundle-scoring-engine" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/extension-tao-deliver-connect" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/extension-tao-deliver-pcis" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/extension-tao-testqti-export" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/lib-correlation-ids-messenger" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/lib-grader-messenger-bridge" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/lib-qti-item-json-compilation" },
+        { "type": "vcs", "url": "https://github.com/tao-ce/tao-timers-client" },
+        {
+            "require": "*",
+            "options": { "symlink": false },
+            "type": "path",
+            "url": "apps/environment-management/libs/*"
+        }
+    ],
+    "require-all": true 
+}

@@ -1,0 +1,44 @@
+on:
+  push:
+    branches:
+      - main
+
+env:
+  STATIS_PREFIX: /main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v6
+      with:
+        submodules: recursive
+        
+    # - uses: docker://ghcr.io/composer/satis:latest
+    #   env:
+    #     STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer${{ env.STATIS_PREFIX }}
+    #   with:
+    #     args: composer/satis -vvn build satis.json public
+    - run: |
+        mkdir -p public
+        echo HELLO >index.html
+
+    - uses: actions/upload-pages-artifact@v4
+      with:
+        path: ${{ github.workspace }}/public
+
+  deploy:
+    needs: [build]
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{steps.deployment.outputs.page_url}}${{ env.STATIS_PREFIX }}
+    steps:
+    - id: deployment
+      uses: actions/deploy-pages@v4
+

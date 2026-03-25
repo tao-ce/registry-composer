@@ -1,0 +1,3 @@
+[submodule "apps/environment-management"]
+	path = apps/environment-management
+	url = git@github.com:tao-ce/environment-management.git
