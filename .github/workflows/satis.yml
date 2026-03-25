@@ -26,7 +26,7 @@ jobs:
       env:
         STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer/${{ env.STATIS_PREFIX }}
       with:
-        args: composer/satis -vvn build satis.json public/${{ env.STATIS_PREFIX }}
+        args: --ansi -vvv -n build satis.json public/${{ env.STATIS_PREFIX }}
 
     - working-directory: public
       run: |
