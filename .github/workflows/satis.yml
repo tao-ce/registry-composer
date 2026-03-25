@@ -23,13 +23,15 @@ jobs:
         fetch-depth: 1
 
     - run: |
-        git config --global --add safe.directory /github/workspace
+        git config --global --add safe.directory '*'
 
     - uses: docker://ghcr.io/composer/satis:latest
       env:
+        HOME: /github/home
         STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer/${{ env.STATIS_PREFIX }}
       with:
         args: --ansi -vvv -n build satis.json public/${{ env.STATIS_PREFIX }}
+      
 
     - working-directory: public
       run: |
