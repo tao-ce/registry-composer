@@ -4,7 +4,7 @@ on:
       - main
 
 env:
-  STATIS_PREFIX: /main
+  STATIS_PREFIX: main
 
 jobs:
   build:
@@ -17,7 +17,7 @@ jobs:
         
     # - uses: docker://ghcr.io/composer/satis:latest
     #   env:
-    #     STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer${{ env.STATIS_PREFIX }}
+    #     STATIS_HOMEPAGE: https://tao-ce.github.io/registry-composer/${{ env.STATIS_PREFIX }}
     #   with:
     #     args: composer/satis -vvn build satis.json public
     - run: |
