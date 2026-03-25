@@ -23,7 +23,7 @@ jobs:
         fetch-depth: 1
 
     - run: |
-        git config --global --add safe.directory '*'
+        git config --system --add safe.directory '*'
 
     - uses: docker://ghcr.io/composer/satis:latest
       env:
