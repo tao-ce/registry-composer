@@ -9,6 +9,10 @@ env:
 jobs:
   satis:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
     steps:
 
     - uses: shivammathur/setup-php@v2
