@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{steps.deployment.outputs.page_url}}${{ env.STATIS_PREFIX }}
+      url: ${{steps.deployment.outputs.page_url}}${{ env.STATIS_PREFIX }}/
     steps:
     - id: deployment
       uses: actions/deploy-pages@v4
