@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "oat-sa/bundle-correlation-ids": [
+            {
+                "name": "oat-sa/bundle-correlation-ids",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-correlation-ids.git",
+                    "reference": "a72f6980b895025588e7842e25fe1d1f084988c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-correlation-ids/zipball/a72f6980b895025588e7842e25fe1d1f084988c3",
+                    "reference": "a72f6980b895025588e7842e25fe1d1f084988c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/lib-correlation-ids": "<1.0",
+                    "php": "^7.1.3 || ^8.0",
+                    "symfony/framework-bundle": "^4.2 || ^5.0 || ^6.0",
+                    "symfony/yaml": "^4.2 || ^5.0 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5",
+                    "symfony/phpunit-bridge": "^5.0 || ^6.0"
+                },
+                "suggest": {
+                    "oat-sa/lib-correlation-ids-messenger": "For Messenger middleware to automatically forward correlation ids",
+                    "oat-sa/lib-correlation-ids-monolog": "For Monolog processor to automatically log correlation ids"
+                },
+                "time": "2025-12-17T15:16:19+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\CorrelationIdsBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Correlation Ids Bundle",
+                "keywords": [
+                    "correlation"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-correlation-ids/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-correlation-ids/issues"
+                }
+            }
+        ]
+    }
+}

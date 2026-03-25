@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "oat-sa/bundle-filesystem-document-manager": [
+            {
+                "name": "oat-sa/bundle-filesystem-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-filesystem-document-manager.git",
+                    "reference": "35410b18aa859d41cd5c273dd4ab453e94d95c1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-filesystem-document-manager/zipball/35410b18aa859d41cd5c273dd4ab453e94d95c1a",
+                    "reference": "35410b18aa859d41cd5c273dd4ab453e94d95c1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "league/flysystem": "^2.0 || ^3.0",
+                    "oat-sa/bundle-document-manager": "^0.7",
+                    "php": "^7.4 || ^8.0"
+                },
+                "require-dev": {
+                    "league/flysystem-memory": "^2.0 || ^3.0",
+                    "phpunit/phpunit": "~9|~7"
+                },
+                "time": "2025-12-17T15:16:24+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\FilesystemDocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Filesystem documents manager bundle",
+                "keywords": [
+                    "document",
+                    "filesystem",
+                    "manager"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-filesystem-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-filesystem-document-manager/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "packages": {
+        "oat-sa/bundle-em-client": [
+            {
+                "name": "oat-sa/bundle-em-client",
+                "version": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "version_normalized": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/bundle-em-client/oat-sa-bundle-em-client-9a9fcd19b8c32c652734726f0d2e77806d037807-path.zip",
+                    "shasum": "b53c80ab7b1335832390f9691336b2cd3c6e879b"
+                },
+                "require": {
+                    "nyholm/psr7": "^1.4",
+                    "oat-sa/lib-em-php-client": "*",
+                    "oat-sa/lib-em-php-lti-client": "*",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-client": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-kernel": "^4.4 || ^5.1 || ^6.0",
+                    "symfony/mime": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/psr-http-message-bridge": "^2.1 || ^7.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "symfony-bundle",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\EnvironmentManagementClientBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Symfony Bundle to assist communication with Environment Management",
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            },
+            {
+                "name": "oat-sa/bundle-em-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/bundle-em-client/oat-sa-bundle-em-client-9a9fcd19b8c32c652734726f0d2e77806d037807-path.zip",
+                    "shasum": "b53c80ab7b1335832390f9691336b2cd3c6e879b"
+                },
+                "require": {
+                    "nyholm/psr7": "^1.4",
+                    "oat-sa/lib-em-php-client": "*",
+                    "oat-sa/lib-em-php-lti-client": "*",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-client": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-kernel": "^4.4 || ^5.1 || ^6.0",
+                    "symfony/mime": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/psr-http-message-bridge": "^2.1 || ^7.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\EnvironmentManagementClientBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Symfony Bundle to assist communication with Environment Management",
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            }
+        ]
+    }
+}

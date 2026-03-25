@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "oat-sa/bundle-elasticsearch-document-manager": [
+            {
+                "name": "oat-sa/bundle-elasticsearch-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-elasticsearch-document-manager.git",
+                    "reference": "3f990777e49977c91b43e2916acee7a62939ae96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-elasticsearch-document-manager/zipball/3f990777e49977c91b43e2916acee7a62939ae96",
+                    "reference": "3f990777e49977c91b43e2916acee7a62939ae96",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "^7.2|^8.0",
+                    "ext-json": "*",
+                    "oat-sa/bundle-document-manager": "^0.7",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "dg/bypass-finals": "^1.7",
+                    "phpunit/phpunit": "^9.6"
+                },
+                "time": "2025-12-17T15:16:22+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\ElasticsearchDocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Elasticsearch documents manager bundle",
+                "keywords": [
+                    "document",
+                    "elasticsearch",
+                    "manager"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-elasticsearch-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-elasticsearch-document-manager/issues"
+                }
+            }
+        ]
+    }
+}

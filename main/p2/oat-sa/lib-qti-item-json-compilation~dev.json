@@ -1,0 +1,67 @@
+{
+    "packages": {
+        "oat-sa/lib-qti-item-json-compilation": [
+            {
+                "name": "oat-sa/lib-qti-item-json-compilation",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-qti-item-json-compilation.git",
+                    "reference": "6de58ada7d58ea8dc71cee38997aaf9c3fa23ed4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-qti-item-json-compilation/zipball/6de58ada7d58ea8dc71cee38997aaf9c3fa23ed4",
+                    "reference": "6de58ada7d58ea8dc71cee38997aaf9c3fa23ed4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-simplexml": "*",
+                    "league/flysystem": "^3.0",
+                    "php": "^8.0",
+                    "psr/log": "^1.1 || ^2.0 || ^3.0",
+                    "symfony/filesystem": "^4.4 || ^5.0 || ^6",
+                    "symfony/http-client": "^4.4 || ^5.0 || ^6.0",
+                    "symfony/mime": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/polyfill-php80": "^1.25",
+                    "twig/twig": "^3.3.7"
+                },
+                "require-dev": {
+                    "league/flysystem-memory": "^3.0",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2025-12-17T15:16:43+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\QtiItemJsonCompilation\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\QtiItemJsonCompilation\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT QTI Item JSON Compilation Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-qti-item-json-compilation/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-qti-item-json-compilation/issues"
+                }
+            }
+        ]
+    }
+}

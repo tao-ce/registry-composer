@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "oat-sa/extension-tao-deliver-pcis": [
+            {
+                "name": "oat-sa/extension-tao-deliver-pcis",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-deliver-pcis.git",
+                    "reference": "cc33f826d34c2a56e583dfa0a386d1ba6be779ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-deliver-pcis/zipball/cc33f826d34c2a56e583dfa0a386d1ba6be779ce",
+                    "reference": "cc33f826d34c2a56e583dfa0a386d1ba6be779ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/extension-tao-itemqti": ">=29.13.0",
+                    "oat-sa/extension-tao-itemqti-pci": ">=8.13.1",
+                    "oat-sa/generis": ">=15.22",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.0.0"
+                },
+                "time": "2025-12-17T15:16:34+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "tao-extension-name": "taoDeliverPcis"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoDeliverPcis\\": ""
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Collection of Portable Custom Interactions for use specifically in TAO Advance/Deliver",
+                "homepage": "http://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-deliver-pcis/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-deliver-pcis/issues"
+                }
+            }
+        ]
+    }
+}

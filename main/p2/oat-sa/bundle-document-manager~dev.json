@@ -1,0 +1,62 @@
+{
+    "packages": {
+        "oat-sa/bundle-document-manager": [
+            {
+                "name": "oat-sa/bundle-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-document-manager.git",
+                    "reference": "e2b72581c3a9654438ac3a571df93789e3282131"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-document-manager/zipball/e2b72581c3a9654438ac3a571df93789e3282131",
+                    "reference": "e2b72581c3a9654438ac3a571df93789e3282131",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2.5 || ^8.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/property-access": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/property-info": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/serializer": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/yaml": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0"
+                },
+                "time": "2025-12-17T15:16:20+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\DocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Generic documents manager bundle",
+                "keywords": [
+                    "document",
+                    "manager"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-document-manager/issues"
+                }
+            }
+        ]
+    }
+}

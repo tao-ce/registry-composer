@@ -1,0 +1,1497 @@
+{
+    "packages": {
+        "oat-sa/bundle-cache-document-manager": {
+            "dev-main": {
+                "name": "oat-sa/bundle-cache-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-cache-document-manager.git",
+                    "reference": "a24f9c68ba4d7f2d05262018da01068efd6f9856"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-cache-document-manager/zipball/a24f9c68ba4d7f2d05262018da01068efd6f9856",
+                    "reference": "a24f9c68ba4d7f2d05262018da01068efd6f9856",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/bundle-document-manager": "^0.7 || ^0.8",
+                    "php": "^7.2 || ^8.0",
+                    "symfony/cache": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.2",
+                    "phpunit/phpunit": "^7.5",
+                    "psr/cache": "^1.0"
+                },
+                "time": "2025-12-17T15:16:17+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\CacheDocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PSR-6 cache driver for documents manager bundle",
+                "keywords": [
+                    "cache",
+                    "document",
+                    "manager",
+                    "psr-6"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-cache-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-cache-document-manager/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-correlation-ids": {
+            "dev-main": {
+                "name": "oat-sa/bundle-correlation-ids",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-correlation-ids.git",
+                    "reference": "a72f6980b895025588e7842e25fe1d1f084988c3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-correlation-ids/zipball/a72f6980b895025588e7842e25fe1d1f084988c3",
+                    "reference": "a72f6980b895025588e7842e25fe1d1f084988c3",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/lib-correlation-ids": "<1.0",
+                    "php": "^7.1.3 || ^8.0",
+                    "symfony/framework-bundle": "^4.2 || ^5.0 || ^6.0",
+                    "symfony/yaml": "^4.2 || ^5.0 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5",
+                    "symfony/phpunit-bridge": "^5.0 || ^6.0"
+                },
+                "suggest": {
+                    "oat-sa/lib-correlation-ids-messenger": "For Messenger middleware to automatically forward correlation ids",
+                    "oat-sa/lib-correlation-ids-monolog": "For Monolog processor to automatically log correlation ids"
+                },
+                "time": "2025-12-17T15:16:19+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\CorrelationIdsBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Correlation Ids Bundle",
+                "keywords": [
+                    "correlation"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-correlation-ids/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-correlation-ids/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-document-manager": {
+            "dev-main": {
+                "name": "oat-sa/bundle-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-document-manager.git",
+                    "reference": "e2b72581c3a9654438ac3a571df93789e3282131"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-document-manager/zipball/e2b72581c3a9654438ac3a571df93789e3282131",
+                    "reference": "e2b72581c3a9654438ac3a571df93789e3282131",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": "^7.2.5 || ^8.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/property-access": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/property-info": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/serializer": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/yaml": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.5 || ^8.0 || ^9.0"
+                },
+                "time": "2025-12-17T15:16:20+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\DocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Generic documents manager bundle",
+                "keywords": [
+                    "document",
+                    "manager"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-document-manager/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-elasticsearch-document-manager": {
+            "dev-main": {
+                "name": "oat-sa/bundle-elasticsearch-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-elasticsearch-document-manager.git",
+                    "reference": "3f990777e49977c91b43e2916acee7a62939ae96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-elasticsearch-document-manager/zipball/3f990777e49977c91b43e2916acee7a62939ae96",
+                    "reference": "3f990777e49977c91b43e2916acee7a62939ae96",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "^7.2|^8.0",
+                    "ext-json": "*",
+                    "oat-sa/bundle-document-manager": "^0.7",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "dg/bypass-finals": "^1.7",
+                    "phpunit/phpunit": "^9.6"
+                },
+                "time": "2025-12-17T15:16:22+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\ElasticsearchDocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Elasticsearch documents manager bundle",
+                "keywords": [
+                    "document",
+                    "elasticsearch",
+                    "manager"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-elasticsearch-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-elasticsearch-document-manager/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-em-client": {
+            "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3": {
+                "name": "oat-sa/bundle-em-client",
+                "version": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "version_normalized": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/bundle-em-client/oat-sa-bundle-em-client-9a9fcd19b8c32c652734726f0d2e77806d037807-path.zip",
+                    "shasum": "b53c80ab7b1335832390f9691336b2cd3c6e879b"
+                },
+                "require": {
+                    "nyholm/psr7": "^1.4",
+                    "oat-sa/lib-em-php-client": "*",
+                    "oat-sa/lib-em-php-lti-client": "*",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-client": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-kernel": "^4.4 || ^5.1 || ^6.0",
+                    "symfony/mime": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/psr-http-message-bridge": "^2.1 || ^7.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "symfony-bundle",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\EnvironmentManagementClientBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Symfony Bundle to assist communication with Environment Management",
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            },
+            "dev-main": {
+                "name": "oat-sa/bundle-em-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/bundle-em-client/oat-sa-bundle-em-client-9a9fcd19b8c32c652734726f0d2e77806d037807-path.zip",
+                    "shasum": "b53c80ab7b1335832390f9691336b2cd3c6e879b"
+                },
+                "require": {
+                    "nyholm/psr7": "^1.4",
+                    "oat-sa/lib-em-php-client": "*",
+                    "oat-sa/lib-em-php-lti-client": "*",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-client": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/http-kernel": "^4.4 || ^5.1 || ^6.0",
+                    "symfony/mime": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/psr-http-message-bridge": "^2.1 || ^7.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\EnvironmentManagementClientBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Symfony Bundle to assist communication with Environment Management",
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            }
+        },
+        "oat-sa/bundle-filesystem-document-manager": {
+            "dev-main": {
+                "name": "oat-sa/bundle-filesystem-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-filesystem-document-manager.git",
+                    "reference": "35410b18aa859d41cd5c273dd4ab453e94d95c1a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-filesystem-document-manager/zipball/35410b18aa859d41cd5c273dd4ab453e94d95c1a",
+                    "reference": "35410b18aa859d41cd5c273dd4ab453e94d95c1a",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "league/flysystem": "^2.0 || ^3.0",
+                    "oat-sa/bundle-document-manager": "^0.7",
+                    "php": "^7.4 || ^8.0"
+                },
+                "require-dev": {
+                    "league/flysystem-memory": "^2.0 || ^3.0",
+                    "phpunit/phpunit": "~9|~7"
+                },
+                "time": "2025-12-17T15:16:24+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\FilesystemDocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Filesystem documents manager bundle",
+                "keywords": [
+                    "document",
+                    "filesystem",
+                    "manager"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-filesystem-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-filesystem-document-manager/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-grader-messenger-bridge": {
+            "dev-main": {
+                "name": "oat-sa/bundle-grader-messenger-bridge",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-grader-messenger-bridge.git",
+                    "reference": "86fa75e1149a059a85a10e10640e07c567b2f5d0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-grader-messenger-bridge/zipball/86fa75e1149a059a85a10e10640e07c567b2f5d0",
+                    "reference": "86fa75e1149a059a85a10e10640e07c567b2f5d0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "oat-sa/lib-grader-messenger-bridge": "^3.0",
+                    "php": "^8.2",
+                    "symfony/framework-bundle": "^5.4 || ^6.0",
+                    "symfony/messenger": "~5.4.0 || ^6.0",
+                    "symfony/serializer": "~5.4.0 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5"
+                },
+                "time": "2025-12-17T15:16:26+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\GraderMessengerBridgeBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Grader Messenger Bridge Bundle",
+                "keywords": [
+                    "bridge",
+                    "bundle",
+                    "grader",
+                    "messenger"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-grader-messenger-bridge/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-grader-messenger-bridge/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-qti": {
+            "dev-main": {
+                "name": "oat-sa/bundle-qti",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-qti.git",
+                    "reference": "a80c987f7cf790f041a553578153ec1334668e05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-qti/zipball/a80c987f7cf790f041a553578153ec1334668e05",
+                    "reference": "a80c987f7cf790f041a553578153ec1334668e05",
+                    "shasum": ""
+                },
+                "require": {
+                    "league/flysystem": "^2.0 || ^3.0",
+                    "php": "^7.2 || ^8.0",
+                    "psr/simple-cache": "^1.0 || ^3.0",
+                    "qtism/qtism": "^19.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/yaml": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "league/flysystem-memory": "^2.0 || ^3.0",
+                    "phpunit/phpunit": "~9|~7",
+                    "psr/log": "~1"
+                },
+                "time": "2025-12-17T15:16:27+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\QtiBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT QTI Bundle",
+                "keywords": [
+                    "qti",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-qti/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-qti/issues"
+                }
+            }
+        },
+        "oat-sa/bundle-scoring-engine": {
+            "dev-main": {
+                "name": "oat-sa/bundle-scoring-engine",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-scoring-engine.git",
+                    "reference": "3a80e30478610514e0df29066747720ab3a2c3e6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-scoring-engine/zipball/3a80e30478610514e0df29066747720ab3a2c3e6",
+                    "reference": "3a80e30478610514e0df29066747720ab3a2c3e6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.4",
+                    "symfony/framework-bundle": "~5.4 || ^6.0",
+                    "symfony/serializer": "~5.4 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5"
+                },
+                "time": "2025-12-17T15:16:29+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\ScoringEngineBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Scoring Engine Bundle",
+                "keywords": [
+                    "bundle",
+                    "engine",
+                    "scoring",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-scoring-engine/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-scoring-engine/issues"
+                }
+            }
+        },
+        "oat-sa/extension-tao-deliver-connect": {
+            "dev-main": {
+                "name": "oat-sa/extension-tao-deliver-connect",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-deliver-connect.git",
+                    "reference": "b2489d50559f488f913e12491848b127068dfd0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-deliver-connect/zipball/b2489d50559f488f913e12491848b127068dfd0a",
+                    "reference": "b2489d50559f488f913e12491848b127068dfd0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/extension-tao-delivery": ">=15.13.0",
+                    "oat-sa/extension-tao-delivery-rdf": ">=14.21.0",
+                    "oat-sa/extension-tao-lti": ">=12.0.0",
+                    "oat-sa/extension-tao-lti-consumer": ">=2.2.0",
+                    "oat-sa/extension-tao-oauth": ">=6.0.0",
+                    "oat-sa/extension-tao-outcome": ">=13.0.0",
+                    "oat-sa/extension-tao-task-queue": ">=6.0.0",
+                    "oat-sa/extension-tao-test": ">=15.0.0",
+                    "oat-sa/extension-tao-testqti": ">=48.7.0",
+                    "oat-sa/generis": ">=16.0.0",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.26.0"
+                },
+                "time": "2025-12-17T15:16:32+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "tao-extension-name": "taoDeliverConnect"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoDeliverConnect\\": ""
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Extension to manage the connection between Tao Backoffice and Nextgen Deliver",
+                "homepage": "http://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-deliver-connect/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-deliver-connect/issues"
+                }
+            }
+        },
+        "oat-sa/extension-tao-deliver-pcis": {
+            "dev-main": {
+                "name": "oat-sa/extension-tao-deliver-pcis",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-deliver-pcis.git",
+                    "reference": "cc33f826d34c2a56e583dfa0a386d1ba6be779ce"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-deliver-pcis/zipball/cc33f826d34c2a56e583dfa0a386d1ba6be779ce",
+                    "reference": "cc33f826d34c2a56e583dfa0a386d1ba6be779ce",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/extension-tao-itemqti": ">=29.13.0",
+                    "oat-sa/extension-tao-itemqti-pci": ">=8.13.1",
+                    "oat-sa/generis": ">=15.22",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.0.0"
+                },
+                "time": "2025-12-17T15:16:34+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "tao-extension-name": "taoDeliverPcis"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoDeliverPcis\\": ""
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Collection of Portable Custom Interactions for use specifically in TAO Advance/Deliver",
+                "homepage": "http://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-deliver-pcis/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-deliver-pcis/issues"
+                }
+            }
+        },
+        "oat-sa/extension-tao-test-preview-ui-loader": {
+            "dev-main": {
+                "name": "oat-sa/extension-tao-test-preview-ui-loader",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader.git",
+                    "reference": "94b4469491daf6afd00d25a2c2d4e6f15760bb39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-test-preview-ui-loader/zipball/94b4469491daf6afd00d25a2c2d4e6f15760bb39",
+                    "reference": "94b4469491daf6afd00d25a2c2d4e6f15760bb39",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "oat-sa/extension-tao-mediamanager": ">=12.16.0",
+                    "oat-sa/extension-tao-testqti-previewer": ">=3.2.0",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "9.6.x-dev"
+                },
+                "time": "2026-03-17T11:38:36+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "npm-bridge": {
+                        "arguments": [
+                            "--prefix",
+                            "views"
+                        ]
+                    },
+                    "tao-extension-name": "taoTestPreviewUILoader"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoTestPreviewUILoader\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "oat\\taoTestPreviewUILoader\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Extension that provides test previewer",
+                "homepage": "https://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "oat",
+                    "previewer",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/issues"
+                }
+            }
+        },
+        "oat-sa/extension-tao-testqti-export": {
+            "dev-main": {
+                "name": "oat-sa/extension-tao-testqti-export",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-testqti-export.git",
+                    "reference": "d8f3d234291d89dca9ece91040b5ab30774b07fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-testqti-export/zipball/d8f3d234291d89dca9ece91040b5ab30774b07fb",
+                    "reference": "d8f3d234291d89dca9ece91040b5ab30774b07fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/generis": ">=15.26.0",
+                    "oat-sa/tao-core": ">=53.3.2.0"
+                },
+                "time": "2025-12-17T15:16:37+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "tao-extension-name": "taoQtiTestExport"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoQtiTestExport\\": ""
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Qti Test export extension",
+                "homepage": "http://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-testqti-export/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-testqti-export/issues"
+                }
+            }
+        },
+        "oat-sa/lib-correlation-ids-http-client": {
+            "dev-main": {
+                "name": "oat-sa/lib-correlation-ids-http-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-correlation-ids-http-client.git",
+                    "reference": "a1eabaecba14ef7b94e79e8be57e28463e9d9b34"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-correlation-ids-http-client/zipball/a1eabaecba14ef7b94e79e8be57e28463e9d9b34",
+                    "reference": "a1eabaecba14ef7b94e79e8be57e28463e9d9b34",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/lib-correlation-ids": "<1.0",
+                    "php": "^7.1.3 || ^8.0",
+                    "symfony/http-client": "^4.2 || ^5.0 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.3"
+                },
+                "time": "2025-12-17T15:16:39+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\CorrelationIdsHttpClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\CorrelationIdsHttpClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT Correlation Ids HTTP Client Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-correlation-ids-http-client/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-correlation-ids-http-client/issues"
+                }
+            }
+        },
+        "oat-sa/lib-correlation-ids-messenger": {
+            "dev-main": {
+                "name": "oat-sa/lib-correlation-ids-messenger",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-correlation-ids-messenger.git",
+                    "reference": "e3eda0b12a040070652600b63bcef7d0c20c03d2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-correlation-ids-messenger/zipball/e3eda0b12a040070652600b63bcef7d0c20c03d2",
+                    "reference": "e3eda0b12a040070652600b63bcef7d0c20c03d2",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/lib-correlation-ids": "<1.0",
+                    "php": "^7.1.3 || ^8.0",
+                    "symfony/messenger": "^4.2 || ^5.0 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.3"
+                },
+                "time": "2025-12-17T15:16:40+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\CorrelationIdsMessenger\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\CorrelationIdsMessenger\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT Correlation Ids Messenger Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-correlation-ids-messenger/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-correlation-ids-messenger/issues"
+                }
+            }
+        },
+        "oat-sa/lib-em-php-client": {
+            "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3": {
+                "name": "oat-sa/lib-em-php-client",
+                "version": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "version_normalized": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-client/oat-sa-lib-em-php-client-af0e786372ff6d251098fd72cdbd1ef43f9fe506-path.zip",
+                    "shasum": "7ec3c6e148d73dcc2ded29c308deff08d32e8910"
+                },
+                "require": {
+                    "lcobucci/jwt": "^4.1.5",
+                    "oat-sa/lib-lti1p3-core": "*",
+                    "php": ">=7.4.0",
+                    "psr/cache": "^1.0 || ^2.0 || ^3.0",
+                    "psr/http-message": "^1.0 || 2.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0",
+                    "symfony/cache-contracts": "^2.0 || ^3.5@dev",
+                    "symfony/http-client-contracts": "^2.4 || ^3.5@dev"
+                },
+                "require-dev": {
+                    "nyholm/psr7": "^1.4",
+                    "phpunit/phpunit": "^9.5",
+                    "zoltanka/bypass-readonly": "dev-master"
+                },
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PHP library to assist communication with Environment Management",
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            },
+            "dev-main": {
+                "name": "oat-sa/lib-em-php-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-client/oat-sa-lib-em-php-client-af0e786372ff6d251098fd72cdbd1ef43f9fe506-path.zip",
+                    "shasum": "7ec3c6e148d73dcc2ded29c308deff08d32e8910"
+                },
+                "require": {
+                    "lcobucci/jwt": "^4.1.5",
+                    "oat-sa/lib-lti1p3-core": "*",
+                    "php": ">=7.4.0",
+                    "psr/cache": "^1.0 || ^2.0 || ^3.0",
+                    "psr/http-message": "^1.0 || 2.0",
+                    "psr/log": "^1.0 || ^2.0 || ^3.0",
+                    "symfony/cache-contracts": "^2.0 || ^3.5@dev",
+                    "symfony/http-client-contracts": "^2.4 || ^3.5@dev"
+                },
+                "require-dev": {
+                    "nyholm/psr7": "^1.4",
+                    "phpunit/phpunit": "^9.5",
+                    "zoltanka/bypass-readonly": "dev-master"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PHP library to assist communication with Environment Management",
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            }
+        },
+        "oat-sa/lib-em-php-lti-client": {
+            "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3": {
+                "name": "oat-sa/lib-em-php-lti-client",
+                "version": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "version_normalized": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-lti-client/oat-sa-lib-em-php-lti-client-dbcaf06a06eae05fb2b2564f334b95bc20bfe3d5-path.zip",
+                    "shasum": "3b7ace1313ecd9a63e7eccedbef181274faa6268"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.4|^7.0",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "psr/http-message": "^1.0 || ^2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            },
+            "dev-main": {
+                "name": "oat-sa/lib-em-php-lti-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-lti-client/oat-sa-lib-em-php-lti-client-dbcaf06a06eae05fb2b2564f334b95bc20bfe3d5-path.zip",
+                    "shasum": "3b7ace1313ecd9a63e7eccedbef181274faa6268"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.4|^7.0",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "psr/http-message": "^1.0 || ^2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            }
+        },
+        "oat-sa/lib-em-php-lti-events": {
+            "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3": {
+                "name": "oat-sa/lib-em-php-lti-events",
+                "version": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "version_normalized": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-lti-events/oat-sa-lib-em-php-lti-events-61342785ce85f6e0aece9d4e9c5cc796e8ab95b5-path.zip",
+                    "shasum": "aee48021c729b67354fd80974cfa30c9cd648b82"
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "oat-sa/lib-lti1p3-ags": "^1.4 | ^2.0",
+                    "oat-sa/lib-lti1p3-basic-outcome": "^4.1 | ^5.0",
+                    "oat-sa/lib-lti1p3-core": "^6.6 | ^7.0 | ^7.2",
+                    "oat-sa/lib-lti1p3-nrps": "^7.0 | ^8.0",
+                    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ^1.0",
+                    "php": ">=8.0",
+                    "symfony/property-access": "^5.0 | ^6.4 | ^7.0",
+                    "symfony/serializer": "^5.0 | ^6.4 | ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiEvents\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiEvents\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            },
+            "dev-main": {
+                "name": "oat-sa/lib-em-php-lti-events",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-lti-events/oat-sa-lib-em-php-lti-events-61342785ce85f6e0aece9d4e9c5cc796e8ab95b5-path.zip",
+                    "shasum": "aee48021c729b67354fd80974cfa30c9cd648b82"
+                },
+                "require": {
+                    "ext-ctype": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "oat-sa/lib-lti1p3-ags": "^1.4 | ^2.0",
+                    "oat-sa/lib-lti1p3-basic-outcome": "^4.1 | ^5.0",
+                    "oat-sa/lib-lti1p3-core": "^6.6 | ^7.0 | ^7.2",
+                    "oat-sa/lib-lti1p3-nrps": "^7.0 | ^8.0",
+                    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ^1.0",
+                    "php": ">=8.0",
+                    "symfony/property-access": "^5.0 | ^6.4 | ^7.0",
+                    "symfony/serializer": "^5.0 | ^6.4 | ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiEvents\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiEvents\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            }
+        },
+        "oat-sa/lib-grader-messenger-bridge": {
+            "dev-main": {
+                "name": "oat-sa/lib-grader-messenger-bridge",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-grader-messenger-bridge.git",
+                    "reference": "d51276144f27f4316e24fa7c258bbd033000aae6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-grader-messenger-bridge/zipball/d51276144f27f4316e24fa7c258bbd033000aae6",
+                    "reference": "d51276144f27f4316e24fa7c258bbd033000aae6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "nesbot/carbon": "^2.28 || ^3.8",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~9"
+                },
+                "time": "2025-12-17T15:16:42+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\GraderMessengerBridge\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\GraderMessengerBridge\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT Grader Messenger Bridge Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-grader-messenger-bridge/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-grader-messenger-bridge/issues"
+                }
+            }
+        },
+        "oat-sa/lib-qti-item-json-compilation": {
+            "dev-main": {
+                "name": "oat-sa/lib-qti-item-json-compilation",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-qti-item-json-compilation.git",
+                    "reference": "6de58ada7d58ea8dc71cee38997aaf9c3fa23ed4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-qti-item-json-compilation/zipball/6de58ada7d58ea8dc71cee38997aaf9c3fa23ed4",
+                    "reference": "6de58ada7d58ea8dc71cee38997aaf9c3fa23ed4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-dom": "*",
+                    "ext-json": "*",
+                    "ext-mbstring": "*",
+                    "ext-simplexml": "*",
+                    "league/flysystem": "^3.0",
+                    "php": "^8.0",
+                    "psr/log": "^1.1 || ^2.0 || ^3.0",
+                    "symfony/filesystem": "^4.4 || ^5.0 || ^6",
+                    "symfony/http-client": "^4.4 || ^5.0 || ^6.0",
+                    "symfony/mime": "^4.4 || ^5.1 || ^6.1 || ^7.0",
+                    "symfony/polyfill-php80": "^1.25",
+                    "twig/twig": "^3.3.7"
+                },
+                "require-dev": {
+                    "league/flysystem-memory": "^3.0",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2025-12-17T15:16:43+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\QtiItemJsonCompilation\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\QtiItemJsonCompilation\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT QTI Item JSON Compilation Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-qti-item-json-compilation/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-qti-item-json-compilation/issues"
+                }
+            }
+        },
+        "oat-sa/lib-tenant-management": {
+            "dev-main": {
+                "name": "oat-sa/lib-tenant-management",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-tenant-management.git",
+                    "reference": "ef5336c04ba5f5dfd72de59c44a785cdc56be6b0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-tenant-management/zipball/ef5336c04ba5f5dfd72de59c44a785cdc56be6b0",
+                    "reference": "ef5336c04ba5f5dfd72de59c44a785cdc56be6b0",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "league/flysystem": "^2.0 || ^3.0",
+                    "php": "^7.2 || ^8.0",
+                    "phpdocumentor/reflection-docblock": "^5.3",
+                    "symfony/property-access": "^4.3 || ^5.1 || ^6.0 || ^7.0",
+                    "symfony/property-info": "^4.3 || ^5.1 || ^6.0 || ^7.0",
+                    "symfony/serializer": "^4.3 || ^5.1 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5 || ^8.5"
+                },
+                "time": "2025-12-17T15:16:45+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\TenantManagement\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\TenantManagement\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT Tenant Management Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-tenant-management/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-tenant-management/issues"
+                }
+            }
+        },
+        "oat-sa/tao-timers-client": {
+            "dev-develop": {
+                "name": "oat-sa/tao-timers-client",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/tao-timers-client.git",
+                    "reference": "a8dbd801389adb55b7d1a80be14eae7a4bed3df2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/tao-timers-client/zipball/a8dbd801389adb55b7d1a80be14eae7a4bed3df2",
+                    "reference": "a8dbd801389adb55b7d1a80be14eae7a4bed3df2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "^7.4",
+                    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ~1",
+                    "php": ">=8.0",
+                    "psr/http-client": "^1.0"
+                },
+                "require-dev": {
+                    "nyholm/psr7": "^1.4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2026-03-20T01:01:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PHP library to assist communication with oat-sa/tao-timers-be",
+                "support": {
+                    "source": "https://github.com/tao-ce/tao-timers-client/tree/develop",
+                    "issues": "https://github.com/tao-ce/tao-timers-client/issues"
+                }
+            },
+            "dev-main": {
+                "name": "oat-sa/tao-timers-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/tao-timers-client.git",
+                    "reference": "970b2875684a3301226a8963fd2c8f836d0cfd60"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/tao-timers-client/zipball/970b2875684a3301226a8963fd2c8f836d0cfd60",
+                    "reference": "970b2875684a3301226a8963fd2c8f836d0cfd60",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "^7.4",
+                    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ~1",
+                    "php": ">=8.0",
+                    "psr/http-client": "^1.0"
+                },
+                "require-dev": {
+                    "nyholm/psr7": "^1.4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2025-12-17T15:17:27+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PHP library to assist communication with oat-sa/tao-timers-be",
+                "support": {
+                    "source": "https://github.com/tao-ce/tao-timers-client/tree/main",
+                    "issues": "https://github.com/tao-ce/tao-timers-client/issues"
+                }
+            }
+        }
+    }
+}

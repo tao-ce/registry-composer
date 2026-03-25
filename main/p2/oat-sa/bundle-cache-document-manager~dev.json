@@ -1,0 +1,63 @@
+{
+    "packages": {
+        "oat-sa/bundle-cache-document-manager": [
+            {
+                "name": "oat-sa/bundle-cache-document-manager",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-cache-document-manager.git",
+                    "reference": "a24f9c68ba4d7f2d05262018da01068efd6f9856"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-cache-document-manager/zipball/a24f9c68ba4d7f2d05262018da01068efd6f9856",
+                    "reference": "a24f9c68ba4d7f2d05262018da01068efd6f9856",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/bundle-document-manager": "^0.7 || ^0.8",
+                    "php": "^7.2 || ^8.0",
+                    "symfony/cache": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "^1.2",
+                    "phpunit/phpunit": "^7.5",
+                    "psr/cache": "^1.0"
+                },
+                "time": "2025-12-17T15:16:17+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\CacheDocumentManagerBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PSR-6 cache driver for documents manager bundle",
+                "keywords": [
+                    "cache",
+                    "document",
+                    "manager",
+                    "psr-6"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-cache-document-manager/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-cache-document-manager/issues"
+                }
+            }
+        ]
+    }
+}

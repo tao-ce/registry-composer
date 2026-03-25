@@ -1,0 +1,93 @@
+{
+    "packages": {
+        "oat-sa/lib-em-php-lti-client": [
+            {
+                "name": "oat-sa/lib-em-php-lti-client",
+                "version": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "version_normalized": "dev-085fe6304f0f7b9c72b9258679163b7ee57a4db3",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-lti-client/oat-sa-lib-em-php-lti-client-dbcaf06a06eae05fb2b2564f334b95bc20bfe3d5-path.zip",
+                    "shasum": "3b7ace1313ecd9a63e7eccedbef181274faa6268"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.4|^7.0",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "psr/http-message": "^1.0 || ^2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            },
+            {
+                "name": "oat-sa/lib-em-php-lti-client",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://tao-ce.github.io/registry-composer/main/dist/oat-sa/lib-em-php-lti-client/oat-sa-lib-em-php-lti-client-dbcaf06a06eae05fb2b2564f334b95bc20bfe3d5-path.zip",
+                    "shasum": "3b7ace1313ecd9a63e7eccedbef181274faa6268"
+                },
+                "require": {
+                    "guzzlehttp/guzzle": "^6.4|^7.0",
+                    "oat-sa/lib-em-php-lti-events": "*",
+                    "php": ">=8.0",
+                    "psr/http-message": "^1.0 || ^2.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^9.5"
+                },
+                "type": "library",
+                "installation-source": "dist",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\EnvironmentManagementLtiClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "transport-options": {
+                    "symlink": false,
+                    "relative": true
+                }
+            }
+        ]
+    }
+}

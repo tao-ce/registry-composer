@@ -1,0 +1,33 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$0053591b7789bea512b4ddc6de62499050191475.json": {
+            "sha1": "0053591b7789bea512b4ddc6de62499050191475"
+        }
+    },
+    "metadata-url": "/registry-composer/main/p2/%package%.json",
+    "available-packages": [
+        "oat-sa/bundle-cache-document-manager",
+        "oat-sa/bundle-correlation-ids",
+        "oat-sa/bundle-document-manager",
+        "oat-sa/bundle-elasticsearch-document-manager",
+        "oat-sa/bundle-em-client",
+        "oat-sa/bundle-filesystem-document-manager",
+        "oat-sa/bundle-grader-messenger-bridge",
+        "oat-sa/bundle-qti",
+        "oat-sa/bundle-scoring-engine",
+        "oat-sa/extension-tao-deliver-connect",
+        "oat-sa/extension-tao-deliver-pcis",
+        "oat-sa/extension-tao-test-preview-ui-loader",
+        "oat-sa/extension-tao-testqti-export",
+        "oat-sa/lib-correlation-ids-http-client",
+        "oat-sa/lib-correlation-ids-messenger",
+        "oat-sa/lib-em-php-client",
+        "oat-sa/lib-em-php-lti-client",
+        "oat-sa/lib-em-php-lti-events",
+        "oat-sa/lib-grader-messenger-bridge",
+        "oat-sa/lib-qti-item-json-compilation",
+        "oat-sa/lib-tenant-management",
+        "oat-sa/tao-timers-client"
+    ]
+}

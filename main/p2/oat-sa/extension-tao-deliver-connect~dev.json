@@ -1,0 +1,66 @@
+{
+    "packages": {
+        "oat-sa/extension-tao-deliver-connect": [
+            {
+                "name": "oat-sa/extension-tao-deliver-connect",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-deliver-connect.git",
+                    "reference": "b2489d50559f488f913e12491848b127068dfd0a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-deliver-connect/zipball/b2489d50559f488f913e12491848b127068dfd0a",
+                    "reference": "b2489d50559f488f913e12491848b127068dfd0a",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/extension-tao-delivery": ">=15.13.0",
+                    "oat-sa/extension-tao-delivery-rdf": ">=14.21.0",
+                    "oat-sa/extension-tao-lti": ">=12.0.0",
+                    "oat-sa/extension-tao-lti-consumer": ">=2.2.0",
+                    "oat-sa/extension-tao-oauth": ">=6.0.0",
+                    "oat-sa/extension-tao-outcome": ">=13.0.0",
+                    "oat-sa/extension-tao-task-queue": ">=6.0.0",
+                    "oat-sa/extension-tao-test": ">=15.0.0",
+                    "oat-sa/extension-tao-testqti": ">=48.7.0",
+                    "oat-sa/generis": ">=16.0.0",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.26.0"
+                },
+                "time": "2025-12-17T15:16:32+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "tao-extension-name": "taoDeliverConnect"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoDeliverConnect\\": ""
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Extension to manage the connection between Tao Backoffice and Nextgen Deliver",
+                "homepage": "http://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-deliver-connect/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-deliver-connect/issues"
+                }
+            }
+        ]
+    }
+}

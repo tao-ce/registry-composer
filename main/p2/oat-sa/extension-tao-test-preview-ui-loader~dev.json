@@ -1,0 +1,75 @@
+{
+    "packages": {
+        "oat-sa/extension-tao-test-preview-ui-loader": [
+            {
+                "name": "oat-sa/extension-tao-test-preview-ui-loader",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader.git",
+                    "reference": "94b4469491daf6afd00d25a2c2d4e6f15760bb39"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-test-preview-ui-loader/zipball/94b4469491daf6afd00d25a2c2d4e6f15760bb39",
+                    "reference": "94b4469491daf6afd00d25a2c2d4e6f15760bb39",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "oat-sa/extension-tao-mediamanager": ">=12.16.0",
+                    "oat-sa/extension-tao-testqti-previewer": ">=3.2.0",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "9.6.x-dev"
+                },
+                "time": "2026-03-17T11:38:36+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "npm-bridge": {
+                        "arguments": [
+                            "--prefix",
+                            "views"
+                        ]
+                    },
+                    "tao-extension-name": "taoTestPreviewUILoader"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoTestPreviewUILoader\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "oat\\taoTestPreviewUILoader\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Extension that provides test previewer",
+                "homepage": "https://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "oat",
+                    "previewer",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/issues"
+                }
+            }
+        ]
+    }
+}

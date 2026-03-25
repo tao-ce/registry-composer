@@ -1,0 +1,64 @@
+{
+    "packages": {
+        "oat-sa/bundle-qti": [
+            {
+                "name": "oat-sa/bundle-qti",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-qti.git",
+                    "reference": "a80c987f7cf790f041a553578153ec1334668e05"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-qti/zipball/a80c987f7cf790f041a553578153ec1334668e05",
+                    "reference": "a80c987f7cf790f041a553578153ec1334668e05",
+                    "shasum": ""
+                },
+                "require": {
+                    "league/flysystem": "^2.0 || ^3.0",
+                    "php": "^7.2 || ^8.0",
+                    "psr/simple-cache": "^1.0 || ^3.0",
+                    "qtism/qtism": "^19.0",
+                    "symfony/framework-bundle": "^4.4 || ^5.0 || ^6.0 || ^7.0",
+                    "symfony/yaml": "^4.4 || ^5.0 || ^6.0 || ^7.0"
+                },
+                "require-dev": {
+                    "league/flysystem-memory": "^2.0 || ^3.0",
+                    "phpunit/phpunit": "~9|~7",
+                    "psr/log": "~1"
+                },
+                "time": "2025-12-17T15:16:27+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\QtiBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT QTI Bundle",
+                "keywords": [
+                    "qti",
+                    "sdk"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-qti/tree/main",
+                    "issues": "https://github.com/tao-ce/bundle-qti/issues"
+                }
+            }
+        ]
+    }
+}

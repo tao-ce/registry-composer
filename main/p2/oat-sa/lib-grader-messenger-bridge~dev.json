@@ -1,0 +1,57 @@
+{
+    "packages": {
+        "oat-sa/lib-grader-messenger-bridge": [
+            {
+                "name": "oat-sa/lib-grader-messenger-bridge",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/lib-grader-messenger-bridge.git",
+                    "reference": "d51276144f27f4316e24fa7c258bbd033000aae6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/lib-grader-messenger-bridge/zipball/d51276144f27f4316e24fa7c258bbd033000aae6",
+                    "reference": "d51276144f27f4316e24fa7c258bbd033000aae6",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "nesbot/carbon": "^2.28 || ^3.8",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~9"
+                },
+                "time": "2025-12-17T15:16:42+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\GraderMessengerBridge\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\GraderMessengerBridge\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "OAT Grader Messenger Bridge Library",
+                "support": {
+                    "source": "https://github.com/tao-ce/lib-grader-messenger-bridge/tree/main",
+                    "issues": "https://github.com/tao-ce/lib-grader-messenger-bridge/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "packages": {
+        "oat-sa/extension-tao-testqti-export": [
+            {
+                "name": "oat-sa/extension-tao-testqti-export",
+                "version": "dev-main",
+                "version_normalized": "dev-main",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-testqti-export.git",
+                    "reference": "d8f3d234291d89dca9ece91040b5ab30774b07fb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-testqti-export/zipball/d8f3d234291d89dca9ece91040b5ab30774b07fb",
+                    "reference": "d8f3d234291d89dca9ece91040b5ab30774b07fb",
+                    "shasum": ""
+                },
+                "require": {
+                    "oat-sa/generis": ">=15.26.0",
+                    "oat-sa/tao-core": ">=53.3.2.0"
+                },
+                "time": "2025-12-17T15:16:37+00:00",
+                "default-branch": true,
+                "type": "tao-extension",
+                "extra": {
+                    "tao-extension-name": "taoQtiTestExport"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoQtiTestExport\\": ""
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Qti Test export extension",
+                "homepage": "http://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-testqti-export/tree/main",
+                    "issues": "https://github.com/tao-ce/extension-tao-testqti-export/issues"
+                }
+            }
+        ]
+    }
+}
