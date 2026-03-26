@@ -107,6 +107,59 @@
                     "source": "https://github.com/tao-ce/tao-timers-client/tree/main",
                     "issues": "https://github.com/tao-ce/tao-timers-client/issues"
                 }
+            },
+            {
+                "name": "oat-sa/tao-timers-client",
+                "version": "dev-release-2026-S",
+                "version_normalized": "dev-release-2026-S",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/tao-timers-client.git",
+                    "reference": "a8dbd801389adb55b7d1a80be14eae7a4bed3df2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/tao-timers-client/zipball/a8dbd801389adb55b7d1a80be14eae7a4bed3df2",
+                    "reference": "a8dbd801389adb55b7d1a80be14eae7a4bed3df2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "^7.4",
+                    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ~1",
+                    "php": ">=8.0",
+                    "psr/http-client": "^1.0"
+                },
+                "require-dev": {
+                    "nyholm/psr7": "^1.4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2026-03-20T01:01:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PHP library to assist communication with oat-sa/tao-timers-be",
+                "support": {
+                    "source": "https://github.com/tao-ce/tao-timers-client/tree/develop",
+                    "issues": "https://github.com/tao-ce/tao-timers-client/issues"
+                }
             }
         ]
     }

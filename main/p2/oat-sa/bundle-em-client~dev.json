@@ -26,7 +26,6 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "type": "symfony-bundle",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Bundle\\EnvironmentManagementClientBundle\\": ""

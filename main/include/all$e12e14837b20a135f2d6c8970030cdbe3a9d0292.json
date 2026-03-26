@@ -261,7 +261,6 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "type": "symfony-bundle",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Bundle\\EnvironmentManagementClientBundle\\": ""
@@ -756,6 +755,74 @@
                     "source": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/tree/main",
                     "issues": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/issues"
                 }
+            },
+            "dev-release-2026-S": {
+                "name": "oat-sa/extension-tao-test-preview-ui-loader",
+                "version": "dev-release-2026-S",
+                "version_normalized": "dev-release-2026-S",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader.git",
+                    "reference": "a5c109f6ac732201dab7af5cfd61397cc712fe63"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/extension-tao-test-preview-ui-loader/zipball/a5c109f6ac732201dab7af5cfd61397cc712fe63",
+                    "reference": "a5c109f6ac732201dab7af5cfd61397cc712fe63",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "oat-sa/extension-tao-mediamanager": ">=12.16.0",
+                    "oat-sa/extension-tao-testqti-previewer": ">=3.2.0",
+                    "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+                    "oat-sa/tao-core": ">=54.0.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "9.6.x-dev"
+                },
+                "time": "2026-03-25T18:08:45+00:00",
+                "type": "tao-extension",
+                "extra": {
+                    "npm-bridge": {
+                        "arguments": [
+                            "--prefix",
+                            "views"
+                        ]
+                    },
+                    "tao-extension-name": "taoTestPreviewUILoader"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "oat\\taoTestPreviewUILoader\\": ""
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "oat\\taoTestPreviewUILoader\\Tests\\": "tests"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Extension that provides test previewer",
+                "homepage": "https://www.taotesting.com",
+                "keywords": [
+                    "computer-based-assessment",
+                    "oat",
+                    "previewer",
+                    "tao"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/tree/release-2026-S",
+                    "issues": "https://github.com/tao-ce/extension-tao-test-preview-ui-loader/issues"
+                }
             }
         },
         "oat-sa/extension-tao-testqti-export": {
@@ -942,7 +1009,6 @@
                     "zoltanka/bypass-readonly": "dev-master"
                 },
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Library\\EnvironmentManagementClient\\": "src/"
@@ -1082,7 +1148,6 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Library\\EnvironmentManagementLtiClient\\": "src/"
@@ -1185,7 +1250,6 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Library\\EnvironmentManagementLtiEvents\\": "src/"
@@ -1489,6 +1553,59 @@
                 "description": "PHP library to assist communication with oat-sa/tao-timers-be",
                 "support": {
                     "source": "https://github.com/tao-ce/tao-timers-client/tree/main",
+                    "issues": "https://github.com/tao-ce/tao-timers-client/issues"
+                }
+            },
+            "dev-release-2026-S": {
+                "name": "oat-sa/tao-timers-client",
+                "version": "dev-release-2026-S",
+                "version_normalized": "dev-release-2026-S",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/tao-timers-client.git",
+                    "reference": "a8dbd801389adb55b7d1a80be14eae7a4bed3df2"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/tao-timers-client/zipball/a8dbd801389adb55b7d1a80be14eae7a4bed3df2",
+                    "reference": "a8dbd801389adb55b7d1a80be14eae7a4bed3df2",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "guzzlehttp/guzzle": "^7.4",
+                    "oat-sa/lib-lti1p3-proctoring": "^0.5 | ~1",
+                    "php": ">=8.0",
+                    "psr/http-client": "^1.0"
+                },
+                "require-dev": {
+                    "nyholm/psr7": "^1.4",
+                    "phpunit/phpunit": "^9.5"
+                },
+                "time": "2026-03-20T01:01:06+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "OAT\\Library\\TaoTimerClient\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "PHP library to assist communication with oat-sa/tao-timers-be",
+                "support": {
+                    "source": "https://github.com/tao-ce/tao-timers-client/tree/develop",
                     "issues": "https://github.com/tao-ce/tao-timers-client/issues"
                 }
             }

@@ -63,7 +63,6 @@
                     "phpunit/phpunit": "^9.5"
                 },
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Library\\EnvironmentManagementLtiClient\\": "src/"

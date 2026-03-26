@@ -26,7 +26,6 @@
                     "zoltanka/bypass-readonly": "dev-master"
                 },
                 "type": "library",
-                "installation-source": "dist",
                 "autoload": {
                     "psr-4": {
                         "OAT\\Library\\EnvironmentManagementClient\\": "src/"
