@@ -449,6 +449,63 @@
                     "source": "https://github.com/tao-ce/bundle-grader-messenger-bridge/tree/main",
                     "issues": "https://github.com/tao-ce/bundle-grader-messenger-bridge/issues"
                 }
+            },
+            "dev-release-2026-S": {
+                "name": "oat-sa/bundle-grader-messenger-bridge",
+                "version": "dev-release-2026-S",
+                "version_normalized": "dev-release-2026-S",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/tao-ce/bundle-grader-messenger-bridge.git",
+                    "reference": "ab07c17fb1ead42e5d1fc82e2484a948c6f56805"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/tao-ce/bundle-grader-messenger-bridge/zipball/ab07c17fb1ead42e5d1fc82e2484a948c6f56805",
+                    "reference": "ab07c17fb1ead42e5d1fc82e2484a948c6f56805",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "oat-sa/lib-grader-messenger-bridge": "^3.0 || ^4.0 || ^5.0",
+                    "php": "^8.2",
+                    "symfony/framework-bundle": "^5.4 || ^6.0",
+                    "symfony/messenger": "~5.4.0 || ^6.0",
+                    "symfony/serializer": "~5.4.0 || ^6.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^8.5"
+                },
+                "time": "2026-03-30T10:39:12+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "OAT\\Bundle\\GraderMessengerBridgeBundle\\": ""
+                    },
+                    "exclude-from-classmap": [
+                        "/Tests/"
+                    ]
+                },
+                "license": [
+                    "AGPL-3.0-only OR LicenseRef-TAO-Commercial-License"
+                ],
+                "authors": [
+                    {
+                        "name": "Open Assessment Technologies S.A.",
+                        "homepage": "https://www.taotesting.com"
+                    }
+                ],
+                "description": "Grader Messenger Bridge Bundle",
+                "keywords": [
+                    "bridge",
+                    "bundle",
+                    "grader",
+                    "messenger"
+                ],
+                "support": {
+                    "source": "https://github.com/tao-ce/bundle-grader-messenger-bridge/tree/release-2026-S",
+                    "issues": "https://github.com/tao-ce/bundle-grader-messenger-bridge/issues"
+                }
             }
         },
         "oat-sa/bundle-qti": {
